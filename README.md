@@ -1,4 +1,4 @@
-# School_District_Analysis
+# School District Analysis
 ## Overview of School Distrct Analysis
 The school district's board asked for an analysis of math and reading scores at the high schools of the district. Using Pandas, an analysis was completed that broke down math and reading scores by school type (charter or public), by grade (9th - 12th), school size, and spending per student. After reviewing the analaysis, the school district became suspicious that the scores at Thomas High School for 9th graders may have been altered. The analysis was completed again however in the second analysis, the scores for Thomas High School were replaced with NaNs and the rest of the data remained intact. A review was completed of the revised data.
 ## Results
@@ -14,13 +14,13 @@ The school district's board asked for an analysis of math and reading scores at 
   - Since the scores did not change significantly when the 9th graders' scores were removed, the performance of Thomas High School compared to the rest of     the district did not change. However, if you take a look at the school and take the 9th graders scores into account, the passing math, passing reading,     and overall passing scores drop drastically with all scores under 70%.
 ![Screen Shot 2022-05-15 at 9 01 45 PM](https://user-images.githubusercontent.com/67160240/168504384-d1c1aade-6dc0-47b7-a24b-76199d868031.png)
 ![Screen Shot 2022-05-15 at 8 59 01 PM](https://user-images.githubusercontent.com/67160240/168504390-ca04e16c-9c50-4eff-85fb-d3417f16b7a9.png)
-- How does replacing the ninth-grade scores affect math and reading scores?
+- How does replacing the 9th grade scores affect math and reading scores?
   - There is no effect on the other grades as only 9th grades scores were removed. The other grades' scores stayed intact.
-- How does replacing the ninth-grade scores affect scores by spending size?
+- How does replacing the 9th grade scores affect scores by spending size?
   - There is a minimal effect (< 1%) on scores by spending size.
-- How does replacing the ninth-grade scores affect scores by school size?
+- How does replacing the 9th grade scores affect scores by school size?
   - There is a minimal effect (< 1%) on scores by spending size.
-- How does replacing the ninth-grade scores affect scores by school type?
+- How does replacing the 9th grade scores affect scores by school type?
   - There is a minimal effect (< 1%) scores by school type.
 ## Summary
 After the analysis was completed by replacing the 9th grader scores with NaNs, the biggest changes were seen in Thomas High School's overall passing score (90.4% vs. 60.7%), math passing score (93.3% vs. 63.9%), and reading passing scores (97.3% vs. 69.7%). There was also small changes (<1%) in the overall district scores.
